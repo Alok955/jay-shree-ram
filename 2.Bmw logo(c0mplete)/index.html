@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outer-loop {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(5, 5, 5);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .inner {
+        height: 190px;
+        width: 190px;
+        background-color: aliceblue;
+        border-radius:50% ;
+      }
+      h1 {
+        font-size: 4rem;
+        font-family: sans-serif;
+        text-shadow: 3px 1px  rgb(102, 101, 101);
+      }
+      .bmw {
+        position: absolute;
+        display: flex;
+        gap: 50px;
+        color: white;
+      }
+      .b {
+        position: relative;
+       
+        left: 30px;
+        transform:rotate(-55deg); 
+      }
+      .w {
+        position: relative;
+        top: 2px;
+        left: 22px;
+        rotate: 60deg;
+      }
+      .m {
+        position: relative;
+        top: -50px;
+        left: 30px;
+      }
+      .inner-box1 {
+        height: 47%;
+        background-color: rgb(36, 36, 231);
+        width: 48%;
+        position: relative;
+        border-radius: 100% 0 0 0;
+      }
+      .inner-box2 {
+        height: 47%;
+        background-color: rgb(62, 62, 66);
+        width: 47%;
+        border-radius: 0 100% 0 0;
+        position: relative;
+        top: -47%;
+        left: 53%;
+      }
+      .inner-box3 {
+        height: 47%;
+        background-color: rgb(62, 62, 66);
+        width: 47%;
+        position: relative;
+        bottom: 41%;
+        border-radius: 0 0 0 100%;
+      }
+      .inner-box4 {
+        height: 47%;
+        background-color: rgb(17, 17, 216);
+        width: 47%;
+        margin: 1px;
+        position: relative;
+        left: 53%;
+        bottom: 88%;
+        border-radius: 0 0 100% 0;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="bmw">
+      <h1 class="b">B</h1>
+      <h1 class="m">M</h1>
+      <h1 class="w">W</h1>
+    </div>
+
+    <div class="outer-loop">
+      <div class="inner">
+        <div class="inner-box1"></div>
+        <div class="inner-box2"></div>
+        <div class="inner-box3"></div>
+        <div class="inner-box4"></div>
+      </div>
+    </div>
+  </body>
+</html>
