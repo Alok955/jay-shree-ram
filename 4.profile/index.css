@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 244, 244);
+}
+
+.contaner {
+  height: 500px;
+  width: 350px;
+  background-color: rgb(209, 204, 204);
+  box-shadow: inset -3px -3px 15px rgba(255, 255, 255, 0),
+    inset 3px 3px 15px rgba(0, 0, 0, 0.879);
+  border-radius: 10px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.first {
+  width: 90%;
+
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first img1 {
+  width: 10px;
+  height: 10px;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rgba(217, 210, 213, 0.545);
+  border-radius: 50%;
+  box-shadow:  -5px  -5px 7px #ffff, 
+  5px 5px 5px #010101;
+}
+
+.image img {
+  height: 100px;
+  width: 100px;
+  /* border: 10px solid black; */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 30px;
+}
+.text h2{
+    font-size: 2rem;
+    color: #4d4c4c;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+.text p{
+    font-size: 1.2rem;
+    color: #4d4c4c;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+   
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    box-shadow: -5px  -5px 7px #d9d9d9, 
+    5px 5px 5px #01010147;
+    margin: 0px 20px 0 20px;
+    border-radius: 20px;
+    
+    
+
+}
+
+.massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+ 
+}
+.massage .box{
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(209, 204, 204);
+    color: #4d4c4c;
+    border-radius:10px;
+    box-shadow:  -3px -3px 15px rgba(255, 255, 255, 0),
+    3px 3px 15px rgba(0, 0, 0, 0.879);
+
+}
+.footer{
+    position: relative;
+    top: 40px;
+    color: #605c5c;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
