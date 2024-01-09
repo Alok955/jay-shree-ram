@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+            height: 300px;
+            display:flex;
+           justify-content: center;
+           align-items: center;
+
+        }
+        .hart {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+           transform: rotate(-45deg);
+           animation:  beat .2s infinite  alternate ;
+            
+        }
+        .hart::after,
+        .hart::before{
+            background-color: rgb(255, 0, 0);
+            position:absolute;
+            content: " ";
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .hart::after{
+            top: -50px;
+            left: 0;
+        }
+        .hart::before{
+            top:  0;
+            left: 50px;
+           
+        }
+
+        @keyframes beat {
+            0%{
+                
+                transform:  scale(1) rotate(-45deg);
+                 
+            }
+            
+            100%{
+               
+               
+                transform: scale(1.8)  rotate(-45deg);
+             
+            }
+
+        }
+        .latter{
+            font-size: 10rem;
+            font-family:sans-serif;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <div class="box">
+
+        <!-- <div class="latter">i</div> -->
+       <div class="hart">
+
+    </div>
+    <!-- <div class="latter"> U ..</div> -->
+    </div>
+  
+
+    </div>
+    
+    
+</body>
+</html> 
