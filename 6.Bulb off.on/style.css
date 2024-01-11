@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.xox img{
+     height: 300px;
+}
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     height: 100vh;
+     margin-top: 70px;
+}
+
+
+.xox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100%;
+     width: 100%;
+     margin-top: -100px;
+     /* border:  2px solid black; */
+}
+
+button{
+    padding: 15px 40px;
+    margin: 10px;
+    outline: none;
+    border-radius: 20px;
+    font-size:30px;
+    
+}
+#button1{
+    background-color: yellow;
+
+}
