@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      .button {
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 4px;
+        border-radius: 50%;
+      }
+      .box {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .box1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 700pxs;
+      }
+
+      #red {
+        background-color: crimson;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+      #gray {
+        background-color: grey;
+      }
+      #blue {
+        background-color: rgb(49, 25, 206);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="box">
+      <h1>colo r switch</h1>
+      <div class="box1">
+        <div id="red" class="button"></div>
+        <div id="yellow" class="button"></div>
+        <div id="gray" class="button"></div>
+        <div id="blue" class="button"></div>
+
+        <div id="red" class="button"></div>
+        <div id="yellow" class="button"></div>
+        <div id="gray" class="button"></div>
+        <div id="blue" class="button"></div>
+      </div>
+
+      <h2>click the above color</h2>
+      <h3>to change the bg color</h3>
+    </main>
+
+    <script src="./project1.js"></script>
+  </body>
+</html>
