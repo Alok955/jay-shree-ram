@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color code generator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="contaner">
+      <div class="hex-color-code">
+        <p class="hex-color">#ffffff</p>
+        <button class="hex-button">create color code</button>
+        <button class="hex-button-copy hex-button">Copy</button>
+      </div>
+
+      <!-- rgb color code  -->
+      <div class="rgb-color-code">
+        <div class="box">
+          <label for="red" class="red rgb">Red</label>
+          <input type="range" max="255" min="0" value="0" id="Red" />
+          <p>R:<span class="valueRed">0</span></p>
+        </div>
+        <div class="box">
+          <label for="Green" class="green rgb">Green</label>
+          <input type="range" max="255" min="0" value="0" id="Green" />
+          <p>G:<span class="valueGreen">0</span></p>
+        </div>
+        <div class="box">
+          <label for="Blue" class="blue rgb">Blue</label>
+          <input type="range" max="255" min="0" value="0" id="Blue" />
+          <p>B:<span class="valueBlue">0</span></p>
+        </div>
+        <button class="rgb-button">create RGB color</button>
+        <button class="rgb-button-copy rgb-button" > copy</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
